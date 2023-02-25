@@ -96,6 +96,7 @@ const styles = StyleSheet.create({
     borderColor: "gray",
     padding: 5,
     textAlign: "center",
+    width: 30,
   },
   scoreText: {
     fontSize: 20,
