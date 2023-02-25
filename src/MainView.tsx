@@ -52,6 +52,11 @@ export const MainView: FC = () => {
       {questionCount < 10 ? (
         <>
           <Text style={styles.questionText}>How many red dots are shown?</Text>
+          <Button
+            title="Next question"
+            disabled={!inputValue}
+            onPress={handleNextQuestion}
+          />
           <TenFrame count={currentNumber} />
           <TextInput
             style={styles.input}
@@ -62,11 +67,6 @@ export const MainView: FC = () => {
           <Text style={styles.scoreText}>{`Question: ${
             questionCount + 1
           }`}</Text>
-          <Button
-            title="Next question"
-            disabled={!inputValue}
-            onPress={handleNextQuestion}
-          />
         </>
       ) : (
         <>
