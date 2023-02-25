@@ -13,8 +13,8 @@ Open the Expo app on your mobile device and scan the QR code displayed in the te
 
 What I'd do if I had more time
 
-Improve the styling
-Add tests
-Think about translations if this was to be used in different countries
+-Improve the styling
+-Add tests
+-Think about translations if this was to be used in different countries
 
 
